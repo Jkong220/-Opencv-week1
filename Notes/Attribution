@@ -1,0 +1,50 @@
+Code favors clarity and learning with plenty of inline comments.
+Haar cascade path must be updated locally.
+For webcam scripts, ensure a camera is available and change device index if needed.
+
+Topics distilled from your provided OpenCV Week 1 PDF; the PDF itself is included as report.pdf.
+
+---
+
+##  requirements.txt
+
+opencv-python opencv-contrib-python numpy
+
+---
+
+## notes/week1_notes.md
+```markdown
+# Week 1 Notes — OpenCV Fundamentals
+
+## Introduction to OpenCV
+- Overview, history, installation, basic setup
+
+## Core Module (cv2.core)
+- Data structures, operations on arrays, utility functions
+
+## Image Processing (cv2.imgproc)
+- Transformations, filtering, geometric ops, histograms
+
+## Application Utils (highgui, imgcodecs, videoio)
+- GUI, reading/writing images and videos
+
+## Camera Calibration & 3D (cv2.calib3d)
+- Camera models, undistortion, stereo vision, pose estimation
+
+## Object Detection (cv2.objdetect)
+- Haar cascades, face detection, other detectors
+
+## 2D Features Framework (cv2.feature2d)
+- Feature detection, description, matching (SIFT, ORB)
+
+## Deep Neural Networks (cv2.dnn)
+- Load pre-trained models, inference
+
+## Graph API (cv2.gapi)
+- Pipeline-based, optimized execution
+
+## Other Tutorials (ml, photo, stitching, video)
+- ML integration, photo enhancements, stitching, video analysis
+
+## Theory of Image Processing
+- Pixels, color spaces, convolution, edge detection, Fourier transform
